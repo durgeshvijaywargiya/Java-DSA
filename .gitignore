@@ -1,6 +1,7 @@
 # Java
 *.class
 target/
+out/
 
 # IntelliJ
 .idea/
@@ -8,3 +9,4 @@ target/
 
 # macOS
 .DS_Store
+/out/
