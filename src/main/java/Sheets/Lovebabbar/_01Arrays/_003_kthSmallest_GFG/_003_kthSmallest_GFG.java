@@ -1,4 +1,4 @@
-package Sheets.Lovebabbar.Arrays._003_kthSmallest_GFG;
+package Sheets.Lovebabbar._01Arrays._003_kthSmallest_GFG;
 import java.util.*;
 
 
