@@ -1,4 +1,4 @@
-package Sheets.StriverA2Z._01Basics._01Pattern;
+package Sheets.StriverA2Z._01Basics._02Pattern;
 
 public class _02rightAngledTriangle {
 
