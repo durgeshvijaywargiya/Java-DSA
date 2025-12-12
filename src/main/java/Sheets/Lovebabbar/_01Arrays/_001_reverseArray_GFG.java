@@ -1,4 +1,4 @@
-package Sheets.Lovebabbar._01Arrays._001_reverseArray_GFG;
+package Sheets.Lovebabbar._01Arrays;
 import java.util.Arrays;
 public class _001_reverseArray_GFG {
     /**
