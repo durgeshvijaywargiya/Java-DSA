@@ -1,4 +1,4 @@
-package Sheets.Lovebabbar._01Arrays;
+package Sheets.Lovebabbar._01Arrays._02findMinMax;
 import java.util.*;
 /*
  * Merged class containing multiple methods (method1, method2, method3, method4...).

@@ -1,4 +1,4 @@
-package Sheets.Lovebabbar._01Arrays._007rotateArray;
+package Sheets.Lovebabbar._01Arrays._07rotateArray;
 import java.util.Arrays;
 
 public class _007B_rotateClockwiseByK_Leetcode {

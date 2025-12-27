@@ -1,4 +1,4 @@
-package Sheets.Lovebabbar._01Arrays;
+package Sheets.Lovebabbar._01Arrays._06unionAndIntersectionOfTwoArray;
 import java.util.*;
 
 public class _006BunionAndIntersectionOfTwoArrays {

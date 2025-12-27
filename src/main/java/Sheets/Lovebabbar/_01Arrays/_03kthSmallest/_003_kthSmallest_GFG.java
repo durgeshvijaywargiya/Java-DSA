@@ -1,4 +1,4 @@
-package Sheets.Lovebabbar._01Arrays;
+package Sheets.Lovebabbar._01Arrays._03kthSmallest;
 import java.util.*;
 
 
