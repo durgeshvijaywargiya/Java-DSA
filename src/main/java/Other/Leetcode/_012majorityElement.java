@@ -1,6 +1,6 @@
 package Other.Leetcode;
 import java.util.*;
-public class _013majorityElement {
+public class _012majorityElement {
 
     // ===========================================================
     // METHOD 1: Boyer–Moore Voting Algorithm (OPTIMAL & FAANG PREFERRED)
@@ -60,8 +60,8 @@ public class _013majorityElement {
 
     // ===========================================================
     public static void main(String[] args) {
-        _013majorityElement solver =
-                new _013majorityElement();
+        _012majorityElement solver =
+                new _012majorityElement();
 
         int[] nums = {2, 2, 1, 1, 1, 2, 2};
 
