@@ -2,7 +2,7 @@ package Sheets.Lovebabbar._01Arrays._05moveNegativeLeftToRight;
 
 import java.util.Arrays;
 
-public class _005BmoveNegativeElementToRightSameOrder {
+public class _05B_moveNegativeElementToRightSameOrder_GFG {
 
     // -----------------------------------------------------------
     // method1_twoEndedStableFill (YOUR ORIGINAL LOGIC)
@@ -71,8 +71,8 @@ public class _005BmoveNegativeElementToRightSameOrder {
 
     // -----------------------------------------------------------
     public static void main(String[] args) {
-        _005BmoveNegativeElementToRightSameOrder solver =
-                new _005BmoveNegativeElementToRightSameOrder();
+        _05B_moveNegativeElementToRightSameOrder_GFG solver =
+                new _05B_moveNegativeElementToRightSameOrder_GFG();
 
         int[] arr = {-1, 3, -2, 4, -5, 6};
         System.out.println("Before: " + Arrays.toString(arr));

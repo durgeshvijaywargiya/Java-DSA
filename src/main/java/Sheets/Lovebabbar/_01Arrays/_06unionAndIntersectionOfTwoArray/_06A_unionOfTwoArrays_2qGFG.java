@@ -1,6 +1,6 @@
 package Sheets.Lovebabbar._01Arrays._06unionAndIntersectionOfTwoArray;
 import java.util.*;
-public class _006AunionAndIntersectionOfTwoArrays {
+public class _06A_unionOfTwoArrays_2qGFG {
 
     // -----------------------------------------------------------
     // method1_hashSet (YOUR ORIGINAL APPROACH)

@@ -2,7 +2,7 @@ package Sheets.Lovebabbar._01Arrays._05moveNegativeLeftToRight;
 
 import java.util.Arrays;
 
-public class _005AmoveNegativeToLeft {
+public class _05A_moveNegativeToLeft {
 
     // -----------------------------------------------------------
     // method1_partitionBased (YOUR ORIGINAL IDEA - IN-PLACE)

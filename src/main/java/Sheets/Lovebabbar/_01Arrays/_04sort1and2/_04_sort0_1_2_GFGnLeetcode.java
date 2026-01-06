@@ -2,7 +2,7 @@ package Sheets.Lovebabbar._01Arrays._04sort1and2;
 import java.util.Arrays;
 
 
-public class _004_sort0_1_2_GFG {
+public class _04_sort0_1_2_GFGnLeetcode {
 
     // -----------------------------------------------------------
     // method1_originalArrayBased
@@ -119,7 +119,7 @@ public class _004_sort0_1_2_GFG {
 
     // -----------------------------------------------------------
     public static void main(String[] args) {
-        _004_sort0_1_2_GFG solver = new _004_sort0_1_2_GFG();
+        _04_sort0_1_2_GFGnLeetcode solver = new _04_sort0_1_2_GFGnLeetcode();
 
         int[] arr = {2, 0, 1, 2, 0, 1, 1, 0};
         System.out.println("Before: " + Arrays.toString(arr));
