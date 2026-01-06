@@ -1,7 +1,7 @@
 package Sheets.Lovebabbar._01Arrays._011findDuplicate;
 import java.util.HashSet;
 import java.util.Set;
-public class _011findDuplicates_Leetcode {
+public class _011A_findOneDuplicate_Leetcode {
 
     // ===========================================================
     // METHOD 1: Negative Marking (Your First Solution)
@@ -105,8 +105,8 @@ public class _011findDuplicates_Leetcode {
 
     // ===========================================================
     public static void main(String[] args) {
-        _011findDuplicates_Leetcode solver =
-                new _011findDuplicates_Leetcode();
+        _011A_findOneDuplicate_Leetcode solver =
+                new _011A_findOneDuplicate_Leetcode();
 
         int[] nums = {1, 3, 4, 2, 2};
 

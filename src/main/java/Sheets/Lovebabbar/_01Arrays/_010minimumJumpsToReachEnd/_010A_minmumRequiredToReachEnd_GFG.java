@@ -1,7 +1,7 @@
 package Sheets.Lovebabbar._01Arrays._010minimumJumpsToReachEnd;
 import java.util.*;
 
-public class _010AminmumRequiredToReachEnd_GFG {
+public class _010A_minmumRequiredToReachEnd_GFG {
 
     // ===========================================================
     // APPROACH 1: Greedy + Reachability Check (YOUR SOLUTION)
@@ -92,8 +92,8 @@ public class _010AminmumRequiredToReachEnd_GFG {
 
     // ===========================================================
     public static void main(String[] args) {
-        _010AminmumRequiredToReachEnd_GFG solver =
-                new _010AminmumRequiredToReachEnd_GFG();
+        _010A_minmumRequiredToReachEnd_GFG solver =
+                new _010A_minmumRequiredToReachEnd_GFG();
 
         int[] nums = {2, 3, 1, 1, 4};
 

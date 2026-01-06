@@ -1,7 +1,7 @@
 package Sheets.Lovebabbar._01Arrays._07rotateArray;
 import java.util.Arrays;
 
-public class _007B_rotateClockwiseByK_Leetcode {
+public class _07B_rotateClockwiseByK_Leetcode {
 
     // -----------------------------------------------------------
     // method1_reversalAlgorithm (FAANG PREFERRED)
@@ -67,8 +67,8 @@ public class _007B_rotateClockwiseByK_Leetcode {
 
     // -----------------------------------------------------------
     public static void main(String[] args) {
-        _007B_rotateClockwiseByK_Leetcode solver =
-                new _007B_rotateClockwiseByK_Leetcode();
+        _07B_rotateClockwiseByK_Leetcode solver =
+                new _07B_rotateClockwiseByK_Leetcode();
 
         int[] nums = {1, 2, 3, 4, 5, 6, 7};
         int k = 3;

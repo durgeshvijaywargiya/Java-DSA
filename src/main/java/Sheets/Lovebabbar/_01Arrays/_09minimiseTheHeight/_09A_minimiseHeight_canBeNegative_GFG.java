@@ -2,7 +2,7 @@ package Sheets.Lovebabbar._01Arrays._09minimiseTheHeight;
 
 import java.util.Arrays;
 
-public class _09AminimiseHeight_canBeNegative {
+public class _09A_minimiseHeight_canBeNegative_GFG {
 
     // ===========================================================
     // APPROACH: Greedy + Sorting (OPTIMAL)
@@ -44,8 +44,8 @@ public class _09AminimiseHeight_canBeNegative {
 
     // ===========================================================
     public static void main(String[] args) {
-        _09AminimiseHeight_canBeNegative solver =
-                new _09AminimiseHeight_canBeNegative();
+        _09A_minimiseHeight_canBeNegative_GFG solver =
+                new _09A_minimiseHeight_canBeNegative_GFG();
 
         int[] arr = {1, 5, 8, 10};
         int k = 2;

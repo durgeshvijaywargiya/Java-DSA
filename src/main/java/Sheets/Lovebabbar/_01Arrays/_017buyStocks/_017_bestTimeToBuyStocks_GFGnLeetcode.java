@@ -1,7 +1,7 @@
 package Sheets.Lovebabbar._01Arrays._017buyStocks;
 import java.util.Arrays;
 
-public class _017bestTimeToBuyStocks {
+public class _017_bestTimeToBuyStocks_GFGnLeetcode {
 
     // ===========================================================
     // APPROACH 1: Min Price Tracking (Most Common & Intuitive)
@@ -59,8 +59,8 @@ public class _017bestTimeToBuyStocks {
 
     // ===========================================================
     public static void main(String[] args) {
-        _017bestTimeToBuyStocks solver =
-                new _017bestTimeToBuyStocks();
+        _017_bestTimeToBuyStocks_GFGnLeetcode solver =
+                new _017_bestTimeToBuyStocks_GFGnLeetcode();
 
         int[] prices = {7, 1, 5, 3, 6, 4};
 

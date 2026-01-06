@@ -2,7 +2,7 @@ package Sheets.Lovebabbar._01Arrays._08n013KadanesAlgo;
 
 import java.util.Arrays;
 
-public class _008maximumSubarray_leetcode {
+public class _08_maximumSubarray_GFGnLeetcode {
 
     // ===========================================================
     // METHOD 1: Kadane’s Algorithm (Your Original Version)
@@ -127,7 +127,7 @@ public class _008maximumSubarray_leetcode {
 
     // ===========================================================
     public static void main(String[] args) {
-        _008maximumSubarray_leetcode solver = new _008maximumSubarray_leetcode();
+        _08_maximumSubarray_GFGnLeetcode solver = new _08_maximumSubarray_GFGnLeetcode();
 
         int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
 

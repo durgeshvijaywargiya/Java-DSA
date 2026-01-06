@@ -1,6 +1,6 @@
 package Sheets.Lovebabbar._01Arrays._014mergeInterval;
 import java.util.*;
-public class _014mergeInterval_leetcode56 {
+public class _014_mergeInterval_GFGnLeetcode {
 
     // ===========================================================
     // METHOD 1: Greedy with List (RECOMMENDED / FAANG STANDARD)
@@ -76,8 +76,8 @@ public class _014mergeInterval_leetcode56 {
 
     // ===========================================================
     public static void main(String[] args) {
-        _014mergeInterval_leetcode56 solver =
-                new _014mergeInterval_leetcode56();
+        _014_mergeInterval_GFGnLeetcode solver =
+                new _014_mergeInterval_GFGnLeetcode();
 
         int[][] intervals = {{1,3},{2,6},{8,10},{15,18}};
 

@@ -1,24 +1,26 @@
 package Sheets.Lovebabbar._01Arrays._07rotateArray;
 import java.util.Arrays;
-public class _007A_cyclicallyRotateArrayByOne_GFG {
+
+public class _07C_rotateAntiClockWiseByK_GFG {
 
     // -----------------------------------------------------------
     // method1_extraArray (YOUR ORIGINAL APPROACH)
     // -----------------------------------------------------------
     /**
-     * Rotates array clockwise by one using extra array.
+     * Rotates array left by k using extra array.
 
      * Time: O(n)
      * Space: O(n)
      */
-    public void method1_extraArray(int[] nums) {
+    static void method1_extraArray(int[] nums, int k) {
         if (nums == null || nums.length <= 1) return;
 
         int n = nums.length;
-        int[] temp = new int[n];
+        k = k % n;
 
+        int[] temp = new int[n];
         for (int i = 0; i < n; i++) {
-            temp[(i + 1) % n] = nums[i];
+            temp[(n - k + i) % n] = nums[i];
         }
 
         for (int i = 0; i < n; i++) {
@@ -30,69 +32,66 @@ public class _007A_cyclicallyRotateArrayByOne_GFG {
     // method2_extraArrayOptimised
     // -----------------------------------------------------------
     /**
-     * Same logic as method1, but cleaner and faster copy.
-
-     * Time: O(n)
-     * Space: O(n)
+     * Same logic as method1, but cleaner copy.
      */
-    public void method2_extraArrayOptimised(int[] nums) {
+    static void method2_extraArrayOptimised(int[] nums, int k) {
         if (nums == null || nums.length <= 1) return;
 
         int n = nums.length;
-        int[] temp = new int[n];
+        k = k % n;
 
+        int[] temp = new int[n];
         for (int i = 0; i < n; i++) {
-            temp[(i + 1) % n] = nums[i];
+            temp[(n - k + i) % n] = nums[i];
         }
 
         System.arraycopy(temp, 0, nums, 0, n);
     }
 
     // -----------------------------------------------------------
-    // method3_inPlace (FAANG PREFERRED)
+    // method3_reversalAlgorithm (FAANG PREFERRED)
     // -----------------------------------------------------------
     /**
-     * In-place rotation by one.
-
-     * Steps:
-     * 1. Save last element
-     * 2. Shift elements right
-     * 3. Place last at index 0
+     * In-place left rotation using reversal algorithm.
 
      * Time: O(n)
      * Space: O(1)
      */
-    public void method3_inPlace(int[] nums) {
+    static void method3_reversalAlgorithm(int[] nums, int k) {
         if (nums == null || nums.length <= 1) return;
 
         int n = nums.length;
-        int last = nums[n - 1];
+        k = k % n;
 
-        for (int i = n - 1; i > 0; i--) {
-            nums[i] = nums[i - 1];
+        reverse(nums, 0, k - 1);
+        reverse(nums, k, n - 1);
+        reverse(nums, 0, n - 1);
+    }
+
+    private static void reverse(int[] nums, int start, int end) {
+        while (start < end) {
+            int temp = nums[start];
+            nums[start] = nums[end];
+            nums[end] = temp;
+            start++;
+            end--;
         }
-
-        nums[0] = last;
     }
 
     // -----------------------------------------------------------
     // Recommended Default
     // -----------------------------------------------------------
-    public void solution(int[] nums) {
-        method3_inPlace(nums);
+    static void solution(int[] nums, int k) {
+        method3_reversalAlgorithm(nums, k);
     }
 
     // -----------------------------------------------------------
     public static void main(String[] args) {
-        _007A_cyclicallyRotateArrayByOne_GFG solver =
-                new _007A_cyclicallyRotateArrayByOne_GFG();
+        int[] nums = {1, 2, 3, 4, 5, 6};
+        int k = 2;
 
-        int[] nums = {1, 2, 3, 4, 5};
         System.out.println("Before: " + Arrays.toString(nums));
-
-        solver.solution(nums);
-
+        solution(nums, k);
         System.out.println("After : " + Arrays.toString(nums));
     }
 }
-

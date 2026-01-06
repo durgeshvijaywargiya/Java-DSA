@@ -1,6 +1,6 @@
 package Sheets.Lovebabbar._01Arrays._012mergeTwoSortedArray;
 import java.util.Arrays;
-public class _012AmergeTwoArrays_GFG {
+public class _012A_mergeTwoSortedArrays_GFG {
 
     // ===========================================================
     // METHOD 1: Swap Largest of a[] with Smallest of b[] + Sort
@@ -102,8 +102,8 @@ public class _012AmergeTwoArrays_GFG {
 
     // ===========================================================
     public static void main(String[] args) {
-        _012AmergeTwoArrays_GFG solver =
-                new _012AmergeTwoArrays_GFG();
+        _012A_mergeTwoSortedArrays_GFG solver =
+                new _012A_mergeTwoSortedArrays_GFG();
 
         int[] a = {1, 4, 7, 8, 10};
         int[] b = {2, 3, 9};
