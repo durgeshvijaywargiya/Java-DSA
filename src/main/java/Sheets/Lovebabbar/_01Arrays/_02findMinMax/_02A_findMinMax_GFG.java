@@ -13,7 +13,7 @@ import java.util.*;
 
  * Assumption: For null/empty arrays we return an empty ArrayList<Integer>.
  */
-public class _002_findMinMax_GFG {
+public class _02A_findMinMax_GFG {
     // =========================
     // method1: sort-based
     // When to use: quick to write; not optimal for performance-sensitive code.
@@ -143,7 +143,7 @@ public class _002_findMinMax_GFG {
 
     // Demo main shows usage of DEMO_METHOD "solution"
     public static void main(String[] args) {
-        _002_findMinMax_GFG solver = new _002_findMinMax_GFG();
+        _02A_findMinMax_GFG solver = new _02A_findMinMax_GFG();
 
         int[] example = {3, 1, 7, -2, 10, 0};
         System.out.println("Input: " + java.util.Arrays.toString(example));

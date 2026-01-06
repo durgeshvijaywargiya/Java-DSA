@@ -20,7 +20,7 @@ import java.util.*;
  * This file compiles as-is in IntelliJ.
  */
 
-public class _003_kthSmallest_GFG {
+public class _03A_kthSmallest_GFG {
 
     // =========================
     // method1_sort
@@ -135,7 +135,7 @@ public class _003_kthSmallest_GFG {
 
     // Demo main — shows DEMO_METHOD usage
     public static void main(String[] args) {
-        _003_kthSmallest_GFG solver = new _003_kthSmallest_GFG();
+        _03A_kthSmallest_GFG solver = new _03A_kthSmallest_GFG();
         int[] example = {7, 10, 4, 3, 20, 15};
         int k = 3;
         System.out.println("Input: " + Arrays.toString(example) + ", k=" + k);

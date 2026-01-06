@@ -1,6 +1,6 @@
 package Sheets.Lovebabbar._01Arrays._01reverseArray;
 import java.util.Arrays;
-public class _001_reverseArray_GFG {
+public class _01_reverseArray_GFG {
     /**
      * Approach 1: In-place reversal using a for-loop swapping symmetric indices.
      * Keeps the original logic you wrote but with defensive null check and comments.
@@ -68,7 +68,7 @@ public class _001_reverseArray_GFG {
      * You can call reverseArray1 or reverseArray3 manually to test them.
      */
     public static void main(String[] args) {
-        _001_reverseArray_GFG sol = new _001_reverseArray_GFG();
+        _01_reverseArray_GFG sol = new _01_reverseArray_GFG();
 
         int[] a = {1, 2, 3, 4, 5};
         System.out.println("Original: " + Arrays.toString(a));
